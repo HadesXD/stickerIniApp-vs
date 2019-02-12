@@ -4,7 +4,7 @@ For help and to refresh my memory of VS I created a quick Windows Form App, that
 The app is currently in beta phase and has a lot of bugs. I plan on making it more diverse so it can be used for future neural networks.
 
 <b>Used:</b>
-- programming language: C#
+- language: C#
 - framework: .NET
 - IDE: Visual Studio 2017
 
