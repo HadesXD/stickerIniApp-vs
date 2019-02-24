@@ -52,19 +52,28 @@
     <Compile Include="formExcel.Designer.cs">
       <DependentUpon>formExcel.cs</DependentUpon>
     </Compile>
-    <Compile Include="formMain.cs">
+    <Compile Include="mainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formMain.Designer.cs">
-      <DependentUpon>formMain.cs</DependentUpon>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pathForm.Designer.cs">
+      <DependentUpon>pathForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="formExcel.resx">
       <DependentUpon>formExcel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formMain.resx">
-      <DependentUpon>formMain.cs</DependentUpon>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pathForm.resx">
+      <DependentUpon>pathForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

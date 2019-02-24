@@ -1,6 +1,6 @@
 ﻿namespace TelegramStickersHelper
 {
-    partial class formMain
+    partial class mainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -37,13 +37,14 @@
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.labelOldText = new System.Windows.Forms.Label();
             this.newTextBox = new System.Windows.Forms.TextBox();
-            this.labelTextPath = new System.Windows.Forms.Label();
+            this.mainPath = new System.Windows.Forms.Label();
             this.createFileButton = new System.Windows.Forms.Button();
             this.saveNameButton = new System.Windows.Forms.Button();
             this.labelNewText = new System.Windows.Forms.Label();
             this.labelPicPath = new System.Windows.Forms.Label();
             this.excelButton = new System.Windows.Forms.Button();
             this.nextPicButton = new System.Windows.Forms.Button();
+            this.pathButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,14 +122,14 @@
             this.newTextBox.Size = new System.Drawing.Size(100, 22);
             this.newTextBox.TabIndex = 7;
             // 
-            // labelTextPath
+            // mainPath
             // 
-            this.labelTextPath.AutoSize = true;
-            this.labelTextPath.Location = new System.Drawing.Point(22, 13);
-            this.labelTextPath.Name = "labelTextPath";
-            this.labelTextPath.Size = new System.Drawing.Size(91, 17);
-            this.labelTextPath.TabIndex = 9;
-            this.labelTextPath.Text = "Current path:";
+            this.mainPath.AutoSize = true;
+            this.mainPath.Location = new System.Drawing.Point(22, 13);
+            this.mainPath.Name = "mainPath";
+            this.mainPath.Size = new System.Drawing.Size(47, 17);
+            this.mainPath.TabIndex = 9;
+            this.mainPath.Text = "Empty";
             // 
             // createFileButton
             // 
@@ -192,17 +193,29 @@
             this.nextPicButton.UseVisualStyleBackColor = true;
             this.nextPicButton.Click += new System.EventHandler(this.nextPicButton_Click);
             // 
-            // formMain
+            // pathButton
+            // 
+            this.pathButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pathButton.Location = new System.Drawing.Point(293, 273);
+            this.pathButton.Name = "pathButton";
+            this.pathButton.Size = new System.Drawing.Size(100, 35);
+            this.pathButton.TabIndex = 15;
+            this.pathButton.Text = "PATH";
+            this.pathButton.UseVisualStyleBackColor = true;
+            this.pathButton.Click += new System.EventHandler(this.pathButton_Click);
+            // 
+            // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(687, 581);
+            this.Controls.Add(this.pathButton);
             this.Controls.Add(this.nextPicButton);
             this.Controls.Add(this.excelButton);
             this.Controls.Add(this.labelPicPath);
             this.Controls.Add(this.saveNameButton);
             this.Controls.Add(this.createFileButton);
-            this.Controls.Add(this.labelTextPath);
+            this.Controls.Add(this.mainPath);
             this.Controls.Add(this.labelNewText);
             this.Controls.Add(this.newTextBox);
             this.Controls.Add(this.labelOldText);
@@ -211,7 +224,7 @@
             this.Controls.Add(this.saveTextButton);
             this.Controls.Add(this.openTextButton);
             this.Controls.Add(this.richTextBox);
-            this.Name = "formMain";
+            this.Name = "mainForm";
             this.Text = "formMain";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
@@ -230,13 +243,14 @@
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.Label labelOldText;
         private System.Windows.Forms.TextBox newTextBox;
-        private System.Windows.Forms.Label labelTextPath;
+        private System.Windows.Forms.Label mainPath;
         private System.Windows.Forms.Button createFileButton;
         private System.Windows.Forms.Button saveNameButton;
         private System.Windows.Forms.Label labelNewText;
         private System.Windows.Forms.Label labelPicPath;
         private System.Windows.Forms.Button excelButton;
         private System.Windows.Forms.Button nextPicButton;
+        private System.Windows.Forms.Button pathButton;
     }
 }
 
