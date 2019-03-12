@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TelegramStickersHelper
+namespace tgStickerHelper
 {
     public partial class pathForm : Form
     {
@@ -18,11 +18,17 @@ namespace TelegramStickersHelper
             StartPosition = FormStartPosition.CenterScreen;
         }
 
+        public string pathValue
+        {
+            get
+            {
+                return pathTextBox.Text;
+            }
+        }
+
         private void addButton_Click(object sender, EventArgs e)
         {
-            string sValue = pathTextBox.Text;
-            mainForm log = new mainForm(sValue);
-            this.Close();
+            this.DialogResult = DialogResult.OK;
         }
     }
 }

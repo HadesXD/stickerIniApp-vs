@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9C568D76-035A-4DD0-BD94-0AF15000CFEA}</ProjectGuid>
+    <ProjectGuid>{4D73C366-0DF8-48AD-B3A2-34ABA67BEC88}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TelegramStickersHelper</RootNamespace>
-    <AssemblyName>TelegramStickersHelper</AssemblyName>
+    <RootNamespace>tgStickerHelper</RootNamespace>
+    <AssemblyName>tgStickerHelper</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formExcel.cs">
+    <Compile Include="mainFrom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formExcel.Designer.cs">
-      <DependentUpon>formExcel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="mainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="mainForm.Designer.cs">
-      <DependentUpon>mainForm.cs</DependentUpon>
+    <Compile Include="mainFrom.Designer.cs">
+      <DependentUpon>mainFrom.cs</DependentUpon>
     </Compile>
     <Compile Include="pathForm.cs">
       <SubType>Form</SubType>
@@ -66,11 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="formExcel.resx">
-      <DependentUpon>formExcel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="mainForm.resx">
-      <DependentUpon>mainForm.cs</DependentUpon>
+    <EmbeddedResource Include="mainFrom.resx">
+      <DependentUpon>mainFrom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pathForm.resx">
       <DependentUpon>pathForm.cs</DependentUpon>

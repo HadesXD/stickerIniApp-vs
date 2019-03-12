@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TelegramStickersHelper.Properties
+namespace tgStickerHelper.Properties
 {
 
 

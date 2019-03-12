@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TelegramStickersHelper")]
+[assembly: AssemblyTitle("tgStickerHelper")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TelegramStickersHelper")]
+[assembly: AssemblyProduct("tgStickerHelper")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9c568d76-035a-4dd0-bd94-0af15000cfea")]
+[assembly: Guid("4d73c366-0df8-48ad-b3a2-34aba67bec88")]
 
 // Version information for an assembly consists of the following four values:
 //
