@@ -1,15 +1,9 @@
 # Telegram Sticker Helper App
-A friend of mine wants to create a neural network on a series of images, each image having their own .ini file. <br/>
-For help and to refresh my memory of VS I created a quick Windows Form App, that would help me with the creation of the ini files for 100+ images. <br/>
-The app is currently in beta phase and has a lot of bugs. I plan on making it more diverse so it can be used for future neural networks.
+A friend of mine wanted to create a neural network on a series of images, each image having their own .ini file. For help I created a quick Windows Form App, that would help me with the creation of the ini files for 100+ images. <br/>
+The app is currently very buggy, as I only needed it for my use.
 
-<b>Used:</b>
-- language: C#
-- framework: .NET
-- IDE: Visual Studio 2017
-
-<b>To Do:</b>
-- fix bugs
-- comment the code
-- optimize the code
-- make it more user friendly
+<ul>
+  <li><b>Date:</b> August 2017</li>
+  <li><b>Languages:</b>C#</li>
+  <li><b>IDE:</b> Visual Studio 2017</li>
+</ul>
